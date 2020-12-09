@@ -40,3 +40,8 @@ const countDown = new CountDownTimer({
     targetDate: new Date('Jan 01, 2021'),
 });
 
+const countDown2 = new CountDownTimer({
+    selector: "#timer-2",
+    targetDate: new Date("Jun 15, 2021"),
+});
+
